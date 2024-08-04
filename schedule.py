@@ -101,7 +101,11 @@ if st.session_state.authenticated:
       }
       #root > div:nth-child(1) > div.withScreencast > div > div > div > section.st-emotion-cache-1itdyc2.eczjsme18{
       width: 10rem !important;
-      }                    
+      }
+      #root > div:nth-child(1) > div.withScreencast > div > div > div > section.st-emotion-cache-1itdyc2.eczjsme18 > div.st-emotion-cache-6qob1r.eczjsme11 > div.st-emotion-cache-1gwvy71.eczjsme12 > div > div > div > div > div:nth-child(11) > div > div > h3{
+      font-size: 1rem;
+                  }
+                           
       </style>""", unsafe_allow_html=True)
 
       st.sidebar.subheader('Filtrar por cantidad')
@@ -168,6 +172,8 @@ if st.session_state.authenticated:
       )
 
       st.plotly_chart(fig, use_container_width=True)
+
+
       st.dataframe(df[['Nombre', 'País', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']])
 
       if selected_members:
