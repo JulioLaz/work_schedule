@@ -10,12 +10,10 @@ This project is a Streamlit-based web application designed to help groups find c
 - Display of original availability data
 - Responsive design for various screen sizes
 
-## Demo
+## App
 https://work-schedule-jal.streamlit.app/
 
 ## Availability Visualization
-
-![Availability Graph](https://your-image-host.com/availability-graph.png)
 ![image](https://github.com/user-attachments/assets/11cf1568-6ef1-4e06-be03-42a5b9ea9f92)
 ![image](https://github.com/user-attachments/assets/ccb68722-c910-4c50-a962-ad82296ff85a)
 
